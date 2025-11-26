@@ -8,9 +8,11 @@
 <body>
     <h1>Todo List</h1>
     <div>
-        <input type="text" placeholder="Enter your Task Here">
-        <button>Add task</button>
+        <input type="text" id="todoInput" placeholder="Enter your Task Here">
+        <button onclick="addTaskfn()">Add task</button>
     </div>
-    <script src="script.js"></script>
+    <ul id="todoList"></ul>
+
+    <script src="script.js" defer></script>
 </body>
 </html>
