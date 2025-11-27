@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo List</title>
 </head>
-<body>
-    <h1>Todo List</h1>
-    <div>
-        <input type="text" id="todoInput" placeholder="Enter your Task Here">
-        <button onclick="addTaskfn()">Add task</button>
-    </div>
-    <ul id="todoList"></ul>
 
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        <input type="text" id="todoInput" placeholder="Enter task...">
+        <button class="add-btn" onclick="addTaskfn()">Add</button>
+        <ul id="todoList"></ul>
+    </div>
     <script src="script.js" defer></script>
 </body>
+
 </html>
